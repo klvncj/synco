@@ -34,7 +34,7 @@ const Stats = () => {
     return (
         <section className="flex flex-wrap justify-center items-center gap-8 py-12"  style={{ fontFamily: "'Montserrat', sans-serif" }}>
             {stats.map((stat) => (
-                <div key={stat.label} className="flex flex-col items-center justify-center shadow p-4 px-8 border rounded w-40 h-40">
+                <div key={stat.label} className="flex flex-col items-center justify-center shadow p-4 px-8 rounded w-40 h-40">
                     <h2 className="text-4xl font-bold text-black">
                         <Counter end={stat.value} />
                     </h2>
